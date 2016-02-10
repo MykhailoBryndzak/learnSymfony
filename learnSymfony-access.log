@@ -13,3 +13,6 @@
 127.0.0.1 - - [08/Feb/2016:18:42:42 +0200] "GET /app_dev.php/ HTTP/1.1" 500 266297 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36"
 127.0.0.1 - - [08/Feb/2016:18:42:45 +0200] "GET /app_dev.php/ HTTP/1.1" 500 266297 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36"
 127.0.0.1 - - [08/Feb/2016:18:42:48 +0200] "GET / HTTP/1.1" 200 291 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36"
+127.0.0.1 - - [10/Feb/2016:01:35:59 +0200] "GET /app_dev.php/hello/jobeet HTTP/1.1" 500 266290 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36"
+127.0.0.1 - - [10/Feb/2016:17:26:13 +0200] "GET / HTTP/1.1" 200 291 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36"
+127.0.0.1 - - [10/Feb/2016:17:42:53 +0200] "GET /lob/ HTTP/1.1" 404 757 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36"

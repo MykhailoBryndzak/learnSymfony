@@ -98,7 +98,7 @@ class Job
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -121,7 +121,7 @@ class Job
     /**
      * Get type
      *
-     * @return string 
+     * @return string
      */
     public function getType()
     {
@@ -144,7 +144,7 @@ class Job
     /**
      * Get company
      *
-     * @return string 
+     * @return string
      */
     public function getCompany()
     {
@@ -167,7 +167,7 @@ class Job
     /**
      * Get logo
      *
-     * @return string 
+     * @return string
      */
     public function getLogo()
     {
@@ -190,7 +190,7 @@ class Job
     /**
      * Get url
      *
-     * @return string 
+     * @return string
      */
     public function getUrl()
     {
@@ -213,7 +213,7 @@ class Job
     /**
      * Get position
      *
-     * @return string 
+     * @return string
      */
     public function getPosition()
     {
@@ -236,7 +236,7 @@ class Job
     /**
      * Get location
      *
-     * @return string 
+     * @return string
      */
     public function getLocation()
     {
@@ -259,7 +259,7 @@ class Job
     /**
      * Get description
      *
-     * @return string 
+     * @return string
      */
     public function getDescription()
     {
@@ -282,7 +282,7 @@ class Job
     /**
      * Get how_to_apply
      *
-     * @return string 
+     * @return string
      */
     public function getHowToApply()
     {
@@ -305,7 +305,7 @@ class Job
     /**
      * Get token
      *
-     * @return string 
+     * @return string
      */
     public function getToken()
     {
@@ -328,7 +328,7 @@ class Job
     /**
      * Get is_public
      *
-     * @return boolean 
+     * @return boolean
      */
     public function getIsPublic()
     {
@@ -351,7 +351,7 @@ class Job
     /**
      * Get is_activated
      *
-     * @return boolean 
+     * @return boolean
      */
     public function getIsActivated()
     {
@@ -374,7 +374,7 @@ class Job
     /**
      * Get email
      *
-     * @return string 
+     * @return string
      */
     public function getEmail()
     {
@@ -397,7 +397,7 @@ class Job
     /**
      * Get expires_at
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getExpiresAt()
     {
@@ -420,7 +420,7 @@ class Job
     /**
      * Get created_at
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreatedAt()
     {
@@ -443,7 +443,7 @@ class Job
     /**
      * Get updated_at
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdatedAt()
     {
@@ -466,21 +466,21 @@ class Job
     /**
      * Get category
      *
-     * @return \Ens\JobeetBundle\Entity\Category 
+     * @return \Ens\JobeetBundle\Entity\Category
      */
     public function getCategory()
     {
         return $this->category;
     }
+
     /**
      * @ORM\PrePersist
      */
     public function setCreatedAtValue()
     {
-        if(!$this->$this->getCreatedAt()){
+        if (!$this->getCreatedAt()) {
             $this->created_at = new \DateTime();
-    }
-
+        }
     }
 
     /**
@@ -488,6 +488,6 @@ class Job
      */
     public function setUpdatedAtValue()
     {
-       $this->updated_at = new \DateTime();
+        $this->updated_at = new \DateTime();
     }
 }
